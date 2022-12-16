@@ -2,7 +2,7 @@ const products=[
     {
       
         image:'/images/airpods.jpg',
-        name:'AirPods',
+        name:'AirPodsoooo',
         price:12,
         rating:4.5,
         numReviews:20,
