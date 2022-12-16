@@ -12,9 +12,10 @@ const app=express()
 dotenv.config()
 connectDB()
 app.use(express.json())
-app.get('/',(req,res)=>{
-    res.send('API is running')
-})
+
+// app.get('/',(req,res)=>{
+//     res.send('API is running')
+// })
 
 app.use('/api/products',productRouter)
 app.use('/api/users',userRouter)
