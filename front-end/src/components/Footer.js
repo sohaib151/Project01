@@ -1,10 +1,14 @@
 import React from 'react'
-
+import { Container,Row ,Col } from 'react-bootstrap'
 const Footer = () => {
   return (
-   <>
-   <footer>Footer</footer>
-   </>
+   <footer className='bg-success' >
+    <Container >
+      <Row>
+        <Col className='text-center my-3'>CopyRight &copy; SK Collection </Col>
+      </Row>
+    </Container>
+   </footer>
   )
 }
 
